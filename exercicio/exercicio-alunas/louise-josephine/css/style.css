@@ -1,0 +1,177 @@
+html{
+    font-family:  'Nunito', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link,
+a:visited{
+    color:white;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: white;
+    width: 100%;
+   
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: none;
+}
+
+
+.nav__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.banner__title{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 85px;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.banner_transition{
+    background: url(../img/foto-banner.jpg)center no-repeat;    
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__subtitle{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.banner__btn{
+    background-color: #829dad;
+    text-decoration: none;
+    color : #fff;
+    font-size: 13px;    
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border-radius: 5px;
+    padding: 11px 15px;
+}
+
+.about{
+    background-color: #383838;
+    color: #fff;
+    
+}
+
+.sectionDestinos{
+    width: 425px;
+}
+
+.container{
+
+}
+
+.destinos{
+    height: 500px;
+}
+
+.destinosBlack{
+    height: 500px;
+    background-color: black;
+}
+
+.fotoDestino{
+    width: 90%;
+    margin-top: 5%;
+}
+
+
+.descricaoBlack {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tituloBlack {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #161616;
+    text-decoration: none;
+}
+
+.footer__socialmedia{
+    display: flex;
+    justify-content: center; 
+    
+}
+        @media(min-width: 768px){
+            .nav{
+                background-color: #a0bed0;
+            }
+            .nav__menu{
+        
+                justify-content: center;
+            }
+            li{
+                display:flex;
+                padding: 10px;
+            }
+            .nav__mobile{
+                display: none;
+            }
+        }
+        @media(min-width: 1280xp){
+           .nav__menu{
+               justify-content: flex-end;
+            }
+        }
